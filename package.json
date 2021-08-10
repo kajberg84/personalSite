@@ -8,7 +8,5 @@
   },
   "author": "Kaj Berg",
   "license": "ISC",
-  "devDependencies": {
-    "node-sass": "^6.0.1"
-  }
+  "devDependencies": {}
 }
