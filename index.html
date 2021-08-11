@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/menu.css">
   <title>Kaj Berg portfolio</title>
 </head>
 <body>
@@ -16,8 +15,8 @@
        <div class="hamburger-link-wrapper disp-flex ">
          <div>
            <ul class="hamburger-ul">
-             <li><a href="#aboutme">Om mig</a></li>
-             <li><a href="#courses">Tekniker</a></li>
+             <li><a href="#me">Om mig</a></li>
+             <li><a href="#know">Tekniker</a></li>
              <li><a href="#">Projekt</a></li>
              <li><a href="#">Kontakt</a></li>
            </ul>
@@ -26,7 +25,7 @@
      </div>
    </div>
 
-   <header id="showcase">
+   <header class="showcase">
      <div class="container showcase-container disp-flex">
       <h1>Kaj Berg</h1>
         <p>Just nu studerar jag på Linnéuniversitetet som FullStack utvecklare och har precis gått klart först året. 
@@ -37,13 +36,14 @@
    </header>
 
    <main>
-     <section class="about">
-        <h2> Om mig </h2>
-        <div id="aboutme">
-          <p>
+     <section class="about disp-flex">
+        <!-- <h2> Om mig </h2> -->
+        <img src="./images/headshot.jpg"  id="me" alt="headshot of me">
+        <div class="aboutme mt10">
+          <p >
             Jag driver eget massageföretag och gjort det senaste 8 åren. Har alltid haft dator och träning som ett fritidsintresse sedan barnsben. Jag har två barn och fru, vi bor i Åby, strax utanför Norrköping. Vi är ofta ute i naturen på vår lediga tid. 
-          </p>
-          <p>
+          </p>  
+          <p >
             Mitt mål med studierna är heltidsjobb inom programmeringsbranschen. Jag tror det är en framtidsbransch där man hela tiden kan utvecklas och fortsätta lära sig och utvecklas hela livet ut. 
           </p>
         <p>
@@ -52,36 +52,43 @@
       </div>
     </section>
 
-    <section class="courses">
-      <h2> Tekniker </h2>
-      <p id="courses">
+    <section class="courses mt10">
+      <h2 id="know"> Kunskaper </h2>
+      <p>
         De kunskaper jag hittills samlat på mig är:
       </p>
-          <ul class="knowledge">
-            <li>- HTML5</li>
-            <li>- CSS</li>
-            <li>- SASS/SCSS</li>
-            <li>- JavaScript</li>
-            <li>- React.js</li>
-            <li>- Java </li>
-            <li>- Node.js</li>
-            <li>- NoSql databaser (MongoDb, Firebase).</li>
-            <li> - Postman, Thunder Client, insomnia </li>
-            <li>- Git</li>
-            <li>- Github & Gitlab</li>
-            <li>- Heroku</li>
-            <li>- Netlify</li>
-            <li>- Cypress testning</li>
-            <li>- Websockets</li>
-            <li>- Webhooks</li>
-            <li>- Serverside rendering (ex HBS) </li>
-            <li>- Bootstrap, Tailwind</li>
-            <li>* Figma</li>
-            <li>* Next.js</li>
-            <li>* Typescript</li>
-            <li>* Python</li>
-            <li>** Dessa jobbar jag med nu så efter sommaren kommer jag ha kunskaper inom detta.</li>
-          </ul>
+      <div class="knowledge-container">
+        <ul class="knowledge">
+          <li>- HTML5</li>
+          <li>- CSS</li>
+          <li>- SASS/SCSS</li>
+          <li>- JavaScript</li>
+          <li>- React.js</li>
+          <li>- Java </li>
+          <li>- Node.js</li>
+          <li>- NoSql databaser (MongoDb, Firebase).</li>
+          <li> - Postman, Thunder Client, insomnia </li>
+          <li>- Git</li>
+          <li>- Github & Gitlab</li>
+        </ul>
+        <ul class="knowledge2">
+          <li>- Heroku</li>
+          <li>- Netlify</li>
+          <li>- Cypress testning</li>
+          <li>- Websockets</li>
+          <li>- Webhooks</li>
+          <li>- Serverside rendering (ex HBS) </li>
+          <li>- Bootstrap, Tailwind</li>
+          <li>* Figma</li>
+          <li>* Next.js</li>
+          <li>* Typescript</li>
+          <li>* Python</li>
+        </ul>
+        <div>
+          <p>** Dessa jobbar jag med nu så efter sommaren kommer jag ha kunskaper inom detta.</p>
+        </div>
+      </div>
+
         </p>
       </section>
    </main>
