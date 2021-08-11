@@ -1,0 +1,8 @@
+:root {
+  /* --primary-color:rgba(12, 110, 139, 0.75); */
+  --primary-color:rgba(12, 109, 139, 0.75); 
+  --header-color:rgba(4, 195, 253, 0.75); 
+  --secondary-color:rgba(40, 167, 70, 0.89);
+  --overlay-color:rgba(24, 39, 51, 0.733);
+  --offwhite-color:#f2f2f2;
+}
