@@ -16,6 +16,7 @@
          <div>
            <ul class="hamburger-ul">
              <li><a href="#me">Om mig</a></li>
+             <li><a href="#edu">Utbildningar</a></li>
              <li><a href="#know">Kunskaper</a></li>
              <li><a href="#">Projekt</a></li>
              <li><a href="#">Kontakt</a></li>
@@ -31,34 +32,45 @@
         <p>Just nu studerar jag på Linnéuniversitetet som FullStack utvecklare och har precis gått klart först året. 
         Jag går samtidigt en YH utbildning i Växjö som Frontend utvecklare.
         </p>
-       <a href="#" class="btn"> Läs mer</a>
+      <a href="#me" class="btn"> Läs mer</a>
      </div>
    </header>
 
-   <main>
-     <section class="about disp-flex">
-        <!-- <h2> Om mig </h2> -->
+  <main class="disp-flex col">
+      <!-- about me -->
+    <section class="about m10">
         <img src="./images/headshot.jpg"  id="me" alt="headshot of me">
         <div class="aboutme mt10">
-          <p >
-            Jag driver eget massageföretag och gjort det senaste 8 åren. Har alltid haft dator och träning som ett fritidsintresse sedan barnsben. Jag har två barn och fru, vi bor i Åby, strax utanför Norrköping. Vi är ofta ute i naturen på vår lediga tid. 
-          </p>  
-          <p >
-            Mitt mål med studierna är heltidsjobb inom programmeringsbranschen. Jag tror det är en framtidsbransch där man hela tiden kan utvecklas och fortsätta lära sig och utvecklas hela livet ut. 
-          </p>
-        <p>
-          Jag är målinriktad, disciplinerad och ska nu börja leta efter ett företag där jag kan utvecklas som programmerare. Det optimala för mig just nu är att hitta ett heltidsjobb inom branschen där jag samtidigt på kvällarna kan gå klart utbildningarna som är på distans.
-        </p>
+          <ul>
+            <li>Namn: Kaj Berg</li>
+            <li>Född: 840506</li>
+            <li>Adress: Åby, Norrköping</li>
+            <li>Mobil: 0046-708419534</li>
+            <li>Epost: kajberg84@gmail.com </li>
+          </ul>
       </div>
     </section>
 
-    <section class="courses mt10">
-      <h2 id="know"> Kunskaper </h2>
-      <p>
-        De kunskaper jag hittills samlat på mig är:
-      </p>
-      <div class="knowledge-container">
-        <ul class="knowledge">
+    <!-- education -->
+    <section class="education disp-flex col">
+      <button class="btn" id="edu">Utbildning</button>
+      <ul class="edulist mt10">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+        <li>7</li>
+        <li>8</li>
+        <li>9</li>
+      </ul>
+    </section>
+
+    <!-- knowledge -->
+    <section class="knowledge disp-flex col">
+      <button class="btn" id="know">Kunskaper</button>
+        <ul class="knowlist mt10">
           <li>- HTML5</li>
           <li>- CSS</li>
           <li>- SASS/SCSS</li>
@@ -70,8 +82,6 @@
           <li> - Postman, Thunder Client, insomnia </li>
           <li>- Git</li>
           <li>- Github & Gitlab</li>
-        </ul>
-        <ul class="knowledge2">
           <li>- Heroku</li>
           <li>- Netlify</li>
           <li>- Cypress testning</li>
@@ -82,15 +92,22 @@
           <li>* Figma</li>
           <li>* Next.js</li>
           <li>* Typescript</li>
-          <li>* Python</li>
         </ul>
-        <div>
-          <p>** Dessa jobbar jag med nu så efter sommaren kommer jag ha kunskaper inom detta.</p>
-        </div>
-      </div>
-
-        </p>
       </section>
+      <!-- <section>
+        <p >
+          Jag driver eget massageföretag och gjort det senaste 9 åren. Har alltid haft dator och träning som ett fritidsintresse sedan barnsben. Jag har två barn och fru, vi bor i Åby, strax utanför Norrköping. Vi är ofta ute i naturen på vår lediga tid. 
+        </p>  
+        <p >
+          Mitt mål med studierna är heltidsjobb inom programmeringsbranschen. Jag tror det är en framtidsbransch där man hela tiden kan utvecklas och fortsätta lära sig och utvecklas hela livet ut. 
+        </p>
+      <p>
+        Jag är målinriktad, disciplinerad och ska nu börja leta efter ett företag där jag kan utvecklas som programmerare. Det optimala för mig just nu är att hitta ett heltidsjobb inom branschen där jag samtidigt på kvällarna kan gå klart utbildningarna som är på distans.
+      </p>
+      </section> -->
+
    </main>
+      <!-- JS Script -->
+      <script src="./js/app.js" type="module"></script>
 </body>
 </html>
